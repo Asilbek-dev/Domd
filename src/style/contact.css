@@ -1,0 +1,175 @@
+.contact {
+    position: relative;
+    width: 100%;
+    padding: 50px 0 0 0;
+}
+.contact_back {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+}
+.contact p {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    margin-top: 50px;
+}
+.contact_box {
+    display: block !important;
+    background: #EDEAE9;
+    box-shadow: 0px 0px 74px rgba(39, 17, 10, 0.16);
+    padding: 3rem;
+}
+.contact_box p:nth-child(1) {
+    width: 100%;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: justify;
+}
+.contact_box p:nth-child(2) {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: justify;
+}
+.contact_box textarea {
+    width: 80%;
+    border: none;
+    background: rgba(255, 255, 255, 0.33);
+    box-shadow: inset 1px 1px 12px rgba(0, 0, 0, 0.19);
+    padding: .5rem;
+}
+.contact_box input {
+    border: none;
+    background: rgba(255, 255, 255, 0.33);
+    box-shadow: inset 1px 1px 12px rgba(0, 0, 0, 0.19);
+    padding: .5rem;
+}
+.contact_box button {
+    padding: .5rem 1.5rem;
+    margin-top: 40px;
+    border: none;
+    background: linear-gradient(180deg, #FFDC83 0%, #FBD26A 25%, #C17024 84.9%, #E3A548 100%);
+    font-size: 16px;
+    line-height: 19px;
+}
+.contact_box2 {
+    display: block !important;
+    background: #EDEAE9;
+    box-shadow: 0px 0px 74px rgba(39, 17, 10, 0.16);
+    padding: 3rem;
+}
+.contact_box2 p {
+    width: 100%;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: justify;
+    margin-bottom: 60px;
+}
+.contact_contact {
+    display: flex;
+    text-align: justify;
+}
+.contact_contact img {
+    width: 20px ;
+    height: 20px;
+}
+.contact_contact p {
+    font-size: 20px;
+    line-height: 23px;
+    margin: 0 0 20px 10px;
+    font-weight: normal;
+}
+.contact_messanger {
+    display: flex;
+    margin-bottom: 30px;
+}
+.contact_contact2 {
+    display: flex;
+}
+.contact_contact2 img {
+    width: 20px ;
+    height: 20px;
+    margin-top: 10px;
+}
+.contact_contact2 b {
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0 0 20px 10px;
+}
+.contact_contact2 p {
+    font-size: 18px;
+    line-height: 21px;
+    color: #DDA046;
+    text-shadow: 0px 0px 3px rgba(211, 190, 136, 0.86);
+    font-weight: normal;
+    margin-top: 0;
+}
+.contact_messanger button {
+    display: flex;
+    align-items: center;
+    padding: 2px 1rem;
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 20px;
+    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    background-color: white;
+}
+.contact_messanger button img {
+    margin-right: 10px;
+}
+.contact_but {
+    padding: .5rem 1.5rem;
+    margin-top: 10px;
+    border: none;
+    background: linear-gradient(180deg, #FFDC83 0%, #FBD26A 25%, #C17024 84.9%, #E3A548 100%);
+    font-size: 16px;
+    line-height: 19px;
+}
+
+@media screen and (max-width: 576px) {
+    .contact p {
+        font-size: 32px;
+    }
+    .contact_box p:nth-child(1) {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .contact_box p:nth-child(2) {
+        font-size: 14px;
+        line-height: 120%;
+        margin-top: 10px;
+    }
+    .contact_box2 p {
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+    .contact_messanger button {
+        padding: .5rem 1rem;
+        font-size: 12px;
+    }
+    .contact_messanger button img {
+        width: 20px;
+        height: 20px;
+    }
+    .contact_contact p {
+        font-size: 14px;
+        line-height: 120%;
+    }
+    .contact_contact2 img {
+        margin-top: 5px;
+    }
+    .contact_contact2 b {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .contact_contact2 p {
+        font-size: 14px;
+    }
+}

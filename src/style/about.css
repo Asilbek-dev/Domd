@@ -1,0 +1,158 @@
+#about {
+    position: relative;
+    margin-top: -40px;
+    padding-bottom: 60px;
+}
+#about .back_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.but {
+    font-size: 16px;
+    line-height: 19px;
+    background: linear-gradient(180deg, #FFDC83 0%, #FBD26A 25%, #C17024 84.9%, #E3A548 100%);
+    padding: 0 2rem;
+    margin-top: 50px;
+    border: none;
+}
+.person_about_theme {
+    width: 789px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.person_about_theme p {
+    margin-top: 50px;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center !important;
+}
+.person_about_theme p span {
+    font-weight: bold;
+}
+.people_image {
+    padding-top: 100px;
+    position: relative;
+}
+.people_image img {
+    width: 100% ;
+}
+.image_text {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    color: white;
+}
+.image_text p:nth-child(1) {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: -5px;
+}
+.image_text p:nth-child(2) {
+    width: 150px;
+    font-weight: normal;
+    font-size: 14px;
+}
+.line1 {
+    width: 5.35px;
+    height: 15.08px;
+    background: #DDA046;
+    border-radius: 17px;
+    transform: rotate(-30deg);
+    margin-top: 180px;
+
+}
+.line2 {
+    width: 5.35px;
+    height: 24.32px;
+    background: #DDA046;
+    border-radius: 17px;
+    transform: rotate(30deg);
+    margin-top: -24px;
+    margin-left: 8px;
+}
+.phrase {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: -110px;
+}
+.phrase p {
+    margin: 164px 0 0 30px;
+    font-size: 18px;
+    padding: 0 70px 0 0 ;
+    line-height: 150%;
+}
+.phrase p span {
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 992px) {
+    #about {
+        padding-bottom: 140px;
+    }
+}
+@media screen and (max-width: 776px) {
+    #about {
+        padding-bottom: 180px;
+    }
+    .but {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .person_about_theme {
+        width: 100% !important;
+        margin: 0;
+    }
+    .person_about_theme p {
+        margin-top: 20px;
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .people_image {
+        padding-top: 30px;
+        margin-bottom: -100px;
+    }
+    .image_text {
+        bottom: 20px;
+        left: 20px;
+    }
+    .image_text p:nth-child(1) {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0;
+    }
+    .image_text p:nth-child(2) {
+        width: 100%;
+        font-size: 12px;
+    }
+    .line1 {
+        width: 3.35px;
+        height: 10.08px;
+        background: #DDA046;
+        border-radius: 17px;
+        transform: rotate(-30deg);
+        margin-top: 180px;
+    
+    }
+    .line2 {
+        width: 3.35px;
+        height: 16.32px;
+        background: #DDA046;
+        border-radius: 17px;
+        transform: rotate(30deg);
+        margin-top: -16px;
+        margin-left: 6px;
+    }
+    .phrase {
+        margin-bottom: -150px;
+    }
+    .phrase p {
+        padding: 0;
+        font-size: 12px;
+    }
+}

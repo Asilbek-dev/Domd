@@ -1,0 +1,115 @@
+#header {
+    position: relative;
+}
+#header img:first-child {
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    position: absolute;
+}
+.header_text b{
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+.header_text b span {
+    color:#DDA046 ;
+}
+.header_text h4 {
+    color: white !important;
+    font-size: 42px;
+    width: 585px;
+}
+.header_text p {
+    color: white;
+    font-size: 24px;
+    width: 738.28px;
+    margin: 25px 0;
+}
+.card {
+    border: none;
+    border-radius: 0 !important;
+    color: #1E0801;
+    font-size: 18px;
+    line-height: 100%;
+    background: rgba(255, 255, 255, 0.71);
+    padding: 35px;
+    cursor: pointer;
+}
+.card:hover {
+    background-color: rgba(221, 160, 70, 0.7);
+}
+.header_card {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.71);
+    box-shadow: 0px 0px 74px rgba(39, 17, 10, 0.16);
+    padding: 3rem 1rem 5rem 1rem;
+}
+.header_card b{
+    font-size: 32px;
+}
+.header_card p {
+    font-size: 18px;
+    margin: 10px 0 25px 0;
+}
+.header_card button {
+    margin-top: 10px;
+    background: linear-gradient(180deg, #FFDC83 0%, #FBD26A 25%, #C17024 84.9%, #E3A548 100%);
+    font-size: 16px;
+    padding: .6rem 1.6rem;
+    border: none !important;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .header_text b {
+        font-size: 32px;
+    }
+    .header_text h4 {
+        font-size: 24px;
+        width: 100%;
+    }
+    .header_text p {
+        font-size: 14px;
+        width: 100%;
+    }
+    .card {
+        padding: 20px;
+        font-size: 14px;
+    }
+    .header_card b {
+        font-size: 16px;
+    }
+    .header_card p {
+        font-size: 12px;
+        margin: 5px 0 10px 0;
+    }
+    .header_card button {
+        font-size: 12px;
+        padding: .3rem 1.3rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header_text {
+        text-align: center;
+    }
+    .header_text p {
+        display: none;
+    }
+    .header_card {
+        background: none;
+        box-shadow: none;
+        padding: 0;
+    }
+    .header_card b {
+        display: none;
+    }
+    .header_card p {
+        display: none;
+    }
+    .header_card img {
+        display: none;
+    }
+}

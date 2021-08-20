@@ -1,0 +1,259 @@
+.navbar{
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+    background-color: black;
+    padding: 20px;
+}
+.navbar .fas {
+    color: white;
+    font-size: 27px;
+    width: 27px;
+}
+.navbar_logo {
+    display: flex;
+    align-items: center;
+}
+.navbar_logo img {
+    width: 172.64px;
+    height: 44.5px;
+    right: 1040.36px;
+    margin-right: 15px !important;
+}
+.navbar_text p{
+    font-size: 14px;
+    margin-bottom: 0;
+    color: white;
+}
+.navbar_text b{
+    font-size: 16px !important;
+    color: white;
+}
+.navbar_text b span {
+    color: #DDA046;
+}
+.navbar_two {
+    display: block;
+}
+.navbar_messanger {
+    display: flex;
+}
+.navbar_two p {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    color: #DDA046;
+    margin-bottom: 5px;
+}
+.navbar_messanger button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    right: 967.83px;
+    top: 59px;
+    margin-right: 15px;
+    background: rgba(255, 255, 255, 0.22);
+}
+.navbar_messanger button img {
+    margin-left: 10px;
+}
+.navbar_messanger button p {
+    margin: 0 0 0 8px;
+    color: white;
+    font-size: 14px;
+}
+.navbar_right {
+    display: block;
+    margin-left: -100px !important;
+    padding-right: 120px !important;
+}
+.navbar_number {
+    display: flex;
+    margin-bottom: -12px;
+}
+.navbar_number img {
+    width: 18.57px;
+    height: 18.08px;
+    margin-right: 8px;
+}
+.navbar_number p {
+    font-size: 18px;
+    color: white;
+}
+.navbar_right button {
+    cursor: pointer;
+    font-size: 16px;
+    padding: 12px 30px;
+    background: linear-gradient(180deg, #FFDC83 0%, #FBD26A 25%, #C17024 84.9%, #E3A548 100%);
+    box-shadow: 0px 0px 48px rgba(240, 192, 92, 0.54);
+}
+.navbar_menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 503px;
+    padding: 20px 20px 70px 20px;
+    background: rgba(255, 255, 255, 0.87) !important;
+    backdrop-filter: blur(16px) !important;
+    transition: all 1s ease-in-out;
+    z-index: 999;
+}
+.navbar_menu1 {
+    transform: translateX(0);
+}
+.navbar_menu2 {
+    transform: translateX(-100%);
+}
+.fa-times {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    color: black !important;
+    z-index: 9999 !important;
+}
+.navbar_menu img {
+    float: right;
+}
+.ant-menu {
+    margin: 80px 0 0 50px;
+    width: 100%;
+}
+.ant-menu li {
+    list-style: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    width: 100%;
+}
+.ant-menu li a {
+    width: 100%;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    margin-left: -60px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.ant-space-item {
+    margin-top: 20px !important;
+}
+.ant-menu li a:focus {
+    color: #C17024;
+}
+.navbar_menu p {
+    margin: 25px 0 0 73px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px
+}
+.navbar_menu_button button {
+    display: none;
+    cursor: pointer;
+    font-size: 14px;
+    float: right;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background: linear-gradient(180deg, #FFDC83 0%, #FBD26A 25%, #C17024 84.9%, #E3A548 100%);
+    box-shadow: 0px 0px 48px rgba(240, 192, 92, 0.54);
+}
+
+
+@media screen and (max-width: 1400px) {
+    .navbar_logo {
+        display: block !important;
+    }
+    .navbar_two p {
+        font-size: 12px;
+    }
+    .navbar_right {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        align-items: flex-start;
+    }
+    .navbar_logo img {
+        margin: 0 !important;
+    }
+    .navbar_messanger button {
+        border: none;
+        background: none;
+    }
+    .navbar_messanger button img {
+        margin: 0;
+    }
+    .navbar_number p {
+        font-size: 14px;
+    }
+    .navbar_right button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .navbar {
+        align-items: flex-start !important;
+    }
+    .navbar_logo img {
+        width: 107px;
+        height: 30px;
+    }
+    .navbar_text p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .navbar_text b {
+        font-size: 14px !important;
+    }
+    .navbar_two p {
+        display: none;
+    }
+    .navbar_messanger {
+        position: absolute;
+        right: 0;
+        top: 40px;
+    }
+    .navbar_messanger button {
+        margin-right: 5px;
+    }
+    .navbar_number {
+        margin-left: -50px;
+        margin-bottom: 0;
+    }
+    .navbar_number img {
+        width: 14px;
+        height: 14px;
+    }
+    .navbar_number p {
+        font-size: 12px;
+    }
+    .navbar_right button {
+        display: none;
+    }
+    .navbar_menu {
+        width: 300px;
+    }
+    .navbar_menu_button button{
+        display: block !important;
+    }
+    .ant-menu {
+        margin: 130px 0 0 0;
+    }
+    .ant-menu li {
+        font-size: 16px;
+    }
+    .ant-menu li a {
+        margin-left: -20px;
+        font-size: 16px;
+    }
+    .navbar_menu p {
+        margin: 25px 0 0 24px;
+        font-size: 16px;
+    }
+}

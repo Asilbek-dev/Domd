@@ -1,0 +1,23 @@
+.brand_theme p {
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 20px;
+}
+.brand_theme p span {
+    font-weight: bold;
+}
+.swiper-slide {
+    margin-right: -45px !important;
+    margin-left: 45px !important;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom {
+    display: none !important;
+}
+
+
+@media screen and (max-width: 776px) {
+    .brand_theme p {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}

@@ -1,0 +1,29 @@
+#house {
+    padding: 40px 0;
+}
+.house_theme p{
+    font-size: 52px;
+    line-height: 56px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.house_theme p span {
+    font-weight: bold;
+}
+.house_cards {
+    width: 100%;
+}
+.house_card {
+    width: 33.33333%;
+    padding: 0 2px 1px 0;
+}
+.house_card img {
+    width: 100%;
+}
+
+@media screen and (max-width: 776px) {
+    .house_theme p {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}

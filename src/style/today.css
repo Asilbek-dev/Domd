@@ -1,0 +1,108 @@
+.today_theme p:nth-child(1) {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E0801;
+}
+.today_theme p:nth-child(2) {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #1E0801;
+    font-weight: normal;
+    text-transform: none;
+}
+.video_card {
+    display: flex;
+    background: #1D1A14;
+    justify-content: space-between;
+}
+.video_card_left {
+    display: block;
+    padding: 3rem 4rem;
+}
+.video_card_left p:nth-child(1) {
+    width: 425px;
+    font-weight: bold;
+    font-size: 36px;
+    color: #DDA046;
+}
+.video_card_left p:nth-child(2) {
+    width: 425px;
+    font-weight: normal;
+    font-size: 24px;
+    color: white;
+} 
+.video_card_left button {
+    background: linear-gradient(180deg, #FFDC83 0%, #FBD26A 25%, #C17024 84.9%, #E3A548 100%);
+    box-shadow: 0px 0px 48px rgba(240, 192, 92, 0.54);
+    padding: .3rem 1.5rem;
+}
+.video_card_right img {
+    margin-right: -12px;
+}
+.video_box {
+    position: relative;
+}
+.video_box img {
+    position: absolute;
+    right: 100px;
+    bottom: 65px;
+}
+.video_box_play {
+    text-align: center;
+    position: absolute;
+    width: 50.18px;
+    height: 50.18px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.6);
+    right: 275px;
+    bottom: 230px;
+}
+.icon {
+    margin-top: 16px;
+    color: white !important;
+}
+
+
+@media screen and (max-width: 992px) {
+    .today_theme p:nth-child(1) {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .today_theme p:nth-child(2) {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .video_card {
+        display: block;
+    }
+    .video_card_left {
+        text-align: center;
+    }
+    .video_card_left p:nth-child(1) {
+        width: 100%;
+        font-size: 22px;
+    }
+    .video_card_left p:nth-child(2) {
+        width: 100%;
+        font-size: 14px;
+    }
+    .video_card_left button {
+        font-size: 14px;
+    }
+    .video_card_right  {
+        overflow: hidden;
+    }
+    .video_box img {
+        left: 0;
+        bottom: 10px;
+    }
+    .video_box_play {
+        display: none;
+        right: 130px;
+        bottom: 180px;
+    }
+}
